@@ -693,6 +693,14 @@ a {
     display: inline-block;
     z-index: 2
 }
+.section-head h4 {
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 15px;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+}
 .section-head p {
     color: #757575
 }
@@ -1432,11 +1440,13 @@ a {
     left: 20px;
     bottom: -5px
 }
+
 /*
 .contact-div {
     left: 350px;
 }
 */
+
 .help-block.with-errors,
 .error_messages {
     margin-left: 2px;
@@ -1745,5 +1755,8 @@ footer p {
     .button-project {
         top: 30px;
         margin-left: 155px;
+    }
+    .pro-skills {
+        margin-top: 45px;
     }
 }
